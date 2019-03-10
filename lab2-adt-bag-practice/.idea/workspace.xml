@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="301874ef-5059-469b-b587-37e7e4b4d11d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/adipopa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab2-adt-bag-practice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BagImplementation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BagTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BagTestExtended.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/old_tests/extended_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/old_tests/short_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-dynamic-array/.vs/lab1-dynamic-array/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-dynamic-array/.vs/lab1-dynamic-array/v15/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-dynamic-array/.vs/lab1-dynamic-array/v15/Browse.VC.db" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-dynamic-array/.vs/lab1-dynamic-array/v15/Browse.VC.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-dynamic-array/.vs/lab1-dynamic-array/v15/ipch/AutoPCH/16121cb4726b869f/SOURCE.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-dynamic-array/.vs/lab1-dynamic-array/v15/ipch/AutoPCH/16121cb4726b869f/SOURCE.ipch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-dynamic-array/.vs/lab1-dynamic-array/v15/ipch/AutoPCH/20978534c72a051f/SORTEDBAGITERATOR.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-dynamic-array/.vs/lab1-dynamic-array/v15/ipch/AutoPCH/20978534c72a051f/SORTEDBAGITERATOR.ipch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-dynamic-array/.vs/lab1-dynamic-array/v15/ipch/AutoPCH/45aacb4f6cd33f16/SHORTTEST.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-dynamic-array/.vs/lab1-dynamic-array/v15/ipch/AutoPCH/45aacb4f6cd33f16/SHORTTEST.ipch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-dynamic-array/.vs/lab1-dynamic-array/v15/ipch/AutoPCH/c9d769e4a322f03/EXTENDEDTEST.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-dynamic-array/.vs/lab1-dynamic-array/v15/ipch/AutoPCH/c9d769e4a322f03/EXTENDEDTEST.ipch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-dynamic-array/.vs/lab1-dynamic-array/v15/ipch/AutoPCH/fc327f03c76b4b9d/SORTEDBAG.ipch" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-dynamic-array/.vs/lab1-dynamic-array/v15/ipch/AutoPCH/fc327f03c76b4b9d/SORTEDBAG.ipch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-dynamic-array/Debug/lab1-dynamic-array.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-dynamic-array/Debug/lab1-dynamic-array.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-dynamic-array/Debug/lab1-dynamic-array.ilk" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-dynamic-array/Debug/lab1-dynamic-array.ilk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-dynamic-array/Debug/lab1-dynamic-array.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-dynamic-array/Debug/lab1-dynamic-array.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/Debug/ExtendedTest.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/Debug/ExtendedTest.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/Debug/ShortTest.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/Debug/ShortTest.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/Debug/SortedBag.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/Debug/SortedBag.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/Debug/SortedBagIterator.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/Debug/SortedBagIterator.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/Debug/Source.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/Debug/Source.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/Debug/lab1-dyn.73CFCE79.tlog/CL.command.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/Debug/lab1-dyn.73CFCE79.tlog/CL.command.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/Debug/lab1-dyn.73CFCE79.tlog/CL.read.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/Debug/lab1-dyn.73CFCE79.tlog/CL.read.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/Debug/lab1-dyn.73CFCE79.tlog/CL.write.1.tlog" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/Debug/lab1-dyn.73CFCE79.tlog/CL.write.1.tlog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/Debug/lab1-dynamic-array.log" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/Debug/lab1-dynamic-array.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/Debug/vc141.idb" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/Debug/vc141.idb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/Debug/vc141.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/Debug/vc141.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/ExtendedTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/ExtendedTest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/SortedBag.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/SortedBag.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/SortedBagIterator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/SortedBagIterator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/Source.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/Source.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/lab1-dynamic-array.vcxproj.filters" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1-dynamic-array/lab1-dynamic-array/lab1-dynamic-array.vcxproj.filters" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/lab2_adt_bag_practice$main.coverage" NAME="main Coverage Results" MODIFIED="1552258176944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BagTestExtended.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-93">
+              <caret line="161" column="21" lean-forward="true" selection-start-line="161" selection-start-column="21" selection-end-line="161" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/BagImplementation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BagTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-460">
+              <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>false</find>
+      <find>getCurrent</find>
+      <find>.remove</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="05ae8bcd-426c-4f69-a005-8341db4f2130" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/adt-bag.py" />
+        <option value="$PROJECT_DIR$/src/short-test.py" />
+        <option value="$PROJECT_DIR$/src/extended-test.py" />
+        <option value="$PROJECT_DIR$/src/bag.py" />
+        <option value="$PROJECT_DIR$/src/short_test.py" />
+        <option value="$PROJECT_DIR$/src/bag_iterator.py" />
+        <option value="$PROJECT_DIR$/src/extended_test.py" />
+        <option value="$PROJECT_DIR$/src/main.py" />
+        <option value="$PROJECT_DIR$/src/BagTestExtended.py" />
+        <option value="$PROJECT_DIR$/src/BagImplementation.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-49" />
+    <option name="y" value="-29" />
+    <option name="width" value="1623" />
+    <option name="height" value="984" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="lab2-adt-bag-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab2-adt-bag-practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab2-adt-bag-practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab2-adt-bag-practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552258174474" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="lab2-adt-bag-practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="301874ef-5059-469b-b587-37e7e4b4d11d" name="Default Changelist" comment="" />
+      <created>1552237670168</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552237670168</updated>
+      <workItem from="1552237672674" duration="9162000" />
+      <workItem from="1552257273640" duration="917000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10079000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1691" height="917" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16206262" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4201102" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39944905" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="SciView" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/extended-test.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="323" selection-start-line="323" selection-end-line="323" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/extended_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1288">
+          <caret line="56" column="11" lean-forward="true" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/short_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bag.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="15" column="32" lean-forward="true" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bag_iterator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="20" lean-forward="true" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BagTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BagTestExtended.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93">
+          <caret line="161" column="21" lean-forward="true" selection-start-line="161" selection-start-column="21" selection-end-line="161" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BagImplementation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="43" column="32" lean-forward="true" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
