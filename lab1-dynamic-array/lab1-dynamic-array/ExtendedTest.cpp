@@ -240,6 +240,8 @@ void testAllExtended() {
 	testAdd(relation3);
 	testRemove(relation2);
 	testRemove(relation3);
+	cout << "Extended test for 'relation2'.\n";
 	testQuantity(relation2);
+	cout << "Extended test for 'relation3'.\n";
 	testQuantity(relation3);
 }

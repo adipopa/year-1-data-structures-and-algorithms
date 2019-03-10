@@ -5,13 +5,14 @@
 
 // SortedBag constructor.
 SortedBag::SortedBag(Relation r) {
-	cap = 1;
+	cap = 20;
 	len = 0;
-	elems = new TComp[1];
+	elems = new TComp[20];
 	rel = r;
 }
 
 // Method for adding an element at the right position in the SortedBag's elems array.
+// The complexity of the add(TComp e) method is O(n).
 void SortedBag::add(TComp e) {
 	// If the length of the bag is equal to its capacity, resize it.
 	if (len == cap) {
@@ -24,7 +25,7 @@ void SortedBag::add(TComp e) {
 		elems = newElems;
 	}
 
-	// The variable i will store the position where the next element needs to be inserted add (to respect the given relation).
+	// The variable i will store the position where the next element needs to be inserted at (to respect the given relation).
 	int i = 0;
 	while (i < len && rel(elems[i], e)) {
 		i++;
@@ -43,6 +44,7 @@ void SortedBag::add(TComp e) {
 }
 
 // Method for removing an element from the bag.
+// The complexity of the remove(TComp e) method is O(n).
 bool SortedBag::remove(TComp e) {
 	for (int i = 0; i < len; i++) {
 		if (elems[i] == e) {
@@ -57,6 +59,7 @@ bool SortedBag::remove(TComp e) {
 }
 
 // Method for searching if an element exists in the bag.
+// The complexity of the search(TComp e) method is O(n).
 bool SortedBag::search(TComp e) const {
 	for (int i = 0; i < len; i++) {
 		if (elems[i] == e) {
@@ -67,6 +70,7 @@ bool SortedBag::search(TComp e) const {
 }
 
 // Method for retrieving the number of occurences of an element in the bag.
+// The complexity of the nrOccurrences(TComp e) method is O(n).
 int SortedBag::nrOccurrences(TComp e) const {
 	int count = 0;
 	for (int i = 0; i < len; i++) {
@@ -78,6 +82,7 @@ int SortedBag::nrOccurrences(TComp e) const {
 }
 
 // Methor for retrieving the size of the bag.
+// The complexity of the size() method is O(1).
 int SortedBag::size() const {
 	return len;
 }
@@ -88,6 +93,7 @@ SortedBagIterator SortedBag::iterator() const {
 }
 
 // Method for checking if the bag is empty.
+// The complexity of the isEmpty() method is O(1).
 bool SortedBag::isEmpty() const {
 	return len == 0;
 }

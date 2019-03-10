@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Tests">
+      <UniqueIdentifier>{d72ff463-d519-4476-8b85-e527d3e5d530}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tests">
+      <UniqueIdentifier>{4ef9512b-900f-4164-bfa0-fd64d9e43d57}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -21,14 +27,14 @@
     <ClCompile Include="SortedBagIterator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ShortTest.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ExtendedTest.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="SortedBag.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortTest.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtendedTest.cpp">
+      <Filter>Source Files\Tests</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -38,11 +44,11 @@
     <ClInclude Include="SortedBagIterator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ShortTest.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="ExtendedTest.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="ShortTest.h">
+      <Filter>Header Files\Tests</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
