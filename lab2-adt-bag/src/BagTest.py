@@ -39,5 +39,3 @@ def testAll():
     assert(cont == b.size())
     itb.first()
     assert(itb.valid())
-    
-testAll()

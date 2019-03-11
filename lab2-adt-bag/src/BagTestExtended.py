@@ -319,5 +319,3 @@ def testAllExtended():
     testIterator()
     testQuantity()
 
-
-testAllExtended()

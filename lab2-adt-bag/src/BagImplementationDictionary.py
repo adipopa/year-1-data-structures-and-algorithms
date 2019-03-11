@@ -51,8 +51,8 @@ class Bag:
 class BagIterator:
 
     def __init__(self, bag):
-        self.__itKeys = list(bag._Bag__elems.keys())
-        self.__itValues = list(bag._Bag__elems.values())
+        self.__itElems = list(bag._Bag__elems.keys())
+        self.__itFreq = list(bag._Bag__elems.values())
         self.__currentIndex = 0
         self.__currentFreq = 1
 
@@ -62,7 +62,7 @@ class BagIterator:
 
     def next(self):
         if self.valid():
-            if self.__currentFreq < self.__itValues[self.__currentIndex]:
+            if self.__currentFreq < self.__itFreq[self.__currentIndex]:
                 self.__currentFreq += 1
             else:
                 self.__currentIndex += 1
@@ -71,10 +71,10 @@ class BagIterator:
             raise ValueError
 
     def valid(self):
-        return self.__currentIndex < len(self.__itKeys) and self.__currentFreq <= self.__itValues[self.__currentIndex]
+        return self.__currentIndex < len(self.__itElems) and self.__currentFreq <= self.__itFreq[self.__currentIndex]
 
     def getCurrent(self):
         if self.valid():
-            return self.__itKeys[self.__currentIndex]
+            return self.__itElems[self.__currentIndex]
         else:
             raise ValueError

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/lab2-adt-bag-practice.iml" filepath="$PROJECT_DIR$/lab2-adt-bag-practice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab2-adt-bag.iml" filepath="$PROJECT_DIR$/lab2-adt-bag.iml" />
     </modules>
   </component>
 </project>
