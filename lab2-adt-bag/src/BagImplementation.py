@@ -30,7 +30,7 @@ class Bag:
     # removes one occurrence of an element from a Bag
     # returns True if an element was actually removed (the Bag contained the element e), or False if nothing was removed
     # The complexity for the remove(self, e) method is:
-    # Best case:
+    # Best case: O(1)
     def remove(self, e):
         for i in range(len(self.__pairsList)):
             if self.__pairsList[i].getElem() == e:

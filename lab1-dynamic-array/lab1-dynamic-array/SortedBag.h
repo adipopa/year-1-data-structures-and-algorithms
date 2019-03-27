@@ -35,6 +35,8 @@ public:
 
 	void add(TComp e);
 
+	void resize();
+
 
 
 	//removes one occurrence of an element from a sorted bag
