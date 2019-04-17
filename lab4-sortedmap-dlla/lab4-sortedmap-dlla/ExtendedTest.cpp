@@ -9,7 +9,7 @@
 using namespace std;
 
 bool increasing(TKey c1, TKey c2) {
-	if (c1 < c2) {
+	if (c1 <= c2) {
 		return true;
 	} else {
 		return false;

@@ -93,6 +93,14 @@ public:
 
 
 
+	// adds all pairs from sm, whose key is not in the SortedMap already.
+
+	// returns the number of added pairs
+
+	int addIfNotPresent(SortedMap& sm);
+
+
+
 	// destructor
 
 	~SortedMap();

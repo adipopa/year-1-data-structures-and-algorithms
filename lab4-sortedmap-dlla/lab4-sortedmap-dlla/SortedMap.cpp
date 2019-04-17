@@ -196,6 +196,21 @@ void SortedMap::insertPosition(TElem elem, int pos) {
 	}
 }
 
+int SortedMap::addIfNotPresent(SortedMap & sm) {
+	int cnt = 0;
+	int currentNode = sm.dlla.head;
+	while (currentNode != -1) {
+		TKey key = sm.dlla.nodes[currentNode].info.first;
+		TValue value = sm.dlla.nodes[currentNode].info.second;
+		if (this->search(key) == NULL_TVALUE) {
+			this->add(key, value);
+			cnt++;
+		}
+		currentNode = sm.dlla.nodes[currentNode].next;
+	}
+	return cnt;
+}
+
 // SortedMap destructor.
 // The BC = WC = AC = Theta(1). The overall complexity of the ~SortedMap() method is Theta(1).
 SortedMap::~SortedMap() {
