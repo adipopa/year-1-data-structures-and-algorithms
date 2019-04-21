@@ -24,6 +24,8 @@ public:
 
 	void bubbleDown(int p);
 
+	void bubbleDownRecursive(int p);
+
 	int size();
 
 	~Heap();
