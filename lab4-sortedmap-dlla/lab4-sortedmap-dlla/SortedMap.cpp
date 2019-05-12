@@ -41,9 +41,41 @@ TValue SortedMap::add(TKey c, TValue v) {
 		return oldValue;
 	}
 
-	this->insertPosition(std::make_pair(c, v), currentPos);
+	this->insertAfter(currentNode, std::make_pair(c, v));
 	this->dlla.size++;
 	return NULL_TVALUE;
+}
+
+void SortedMap::insertAfter(int currentNode, TElem elem) {
+	int newNode = allocate();
+	if (newNode == -1) {
+		resize();
+		newNode = allocate();
+	}
+	this->dlla.nodes[newNode].info = elem;
+	if (currentNode == this->dlla.head) {
+		if (this->dlla.head == -1) {
+			this->dlla.head = newNode;
+			this->dlla.tail = newNode;
+		}
+		else {
+			this->dlla.nodes[newNode].next = this->dlla.head;
+			this->dlla.nodes[this->dlla.head].prev = newNode;
+			this->dlla.head = newNode;
+		}
+	}
+	else {
+		int nodeNext = this->dlla.nodes[currentNode].next;
+		this->dlla.nodes[newNode].next = nodeNext;
+		this->dlla.nodes[newNode].prev = currentNode;
+		this->dlla.nodes[currentNode].next = newNode;
+		if (nodeNext == -1) {
+			this->dlla.tail = newNode;
+		}
+		else {
+			this->dlla.nodes[nodeNext].prev = newNode;
+		}
+	}
 }
 
 // Method for removing an element from the SortedMap's DLLA.

@@ -39,6 +39,7 @@ private:
 	int allocate();
 	void free(int pos);
 	void resize();
+	void insertAfter(int currentNode, TElem elem);
 	void insertPosition(TElem elem, int pos);
 
 public:
