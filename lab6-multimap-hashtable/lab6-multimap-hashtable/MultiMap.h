@@ -18,7 +18,7 @@ typedef std::pair<TKey, TValue> TElem;
 typedef int(*TFunction)(TKey key);
 
 
-#define INIT_CAPACITY 32
+#define INIT_CAPACITY 23
 
 
 typedef struct Node {
@@ -26,12 +26,8 @@ typedef struct Node {
 	Node* next;
 } Node;
 
-typedef struct HashTableNode {
-	Node* head;
-} HashTableNode;
-
 typedef struct HashTable {
-	HashTableNode* T;
+	Node** T;
 	int capacity, size;
 } HashTable;
 
@@ -96,6 +92,10 @@ public:
 
 	MultiMapIterator iterator() const;
 
+
+	//returns a vector with all the keys from the MultiMap
+
+	vector<TKey> keySet() const;
 
 
 	//descturctor

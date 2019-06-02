@@ -5,11 +5,11 @@
 MultiMapIterator::MultiMapIterator(const MultiMap & c) : c(c) {
 	this->ht = c.ht;
 	this->currentPos = 0;
-	while (this->currentPos < this->ht.capacity && ht.T[this->currentPos].head == NULL) {
+	while (this->currentPos < this->ht.capacity && ht.T[this->currentPos] == NULL) {
 		this->currentPos++;
 	}
 	if (this->currentPos < this->ht.capacity) {
-		this->currentNode = this->ht.T[this->currentPos].head;
+		this->currentNode = this->ht.T[this->currentPos];
 	}
 	else {
 		this->currentNode = NULL;
@@ -20,11 +20,11 @@ MultiMapIterator::MultiMapIterator(const MultiMap & c) : c(c) {
 // The BC = AC = Theta(1), WC = Theta(m). The overall complexity of the first() method is Theta(m).
 void MultiMapIterator::first() {
 	this->currentPos = 0;
-	while (this->currentPos < this->ht.capacity && ht.T[this->currentPos].head == NULL) {
+	while (this->currentPos < this->ht.capacity && ht.T[this->currentPos] == NULL) {
 		this->currentPos++;
 	}
 	if (this->currentPos < this->ht.capacity) {
-		this->currentNode = this->ht.T[this->currentPos].head;
+		this->currentNode = this->ht.T[this->currentPos];
 	}
 	else {
 		this->currentNode = NULL;
@@ -40,11 +40,11 @@ void MultiMapIterator::next() {
 	this->currentNode = this->currentNode->next;
 	if (this->currentNode == NULL) {
 		this->currentPos++;
-		while (this->currentPos < this->ht.capacity && ht.T[this->currentPos].head == NULL) {
+		while (this->currentPos < this->ht.capacity && ht.T[this->currentPos] == NULL) {
 			this->currentPos++;
 		}
 		if (this->currentPos < this->ht.capacity) {
-			this->currentNode = this->ht.T[this->currentPos].head;
+			this->currentNode = this->ht.T[this->currentPos];
 		}
 		else {
 			this->currentNode = NULL;

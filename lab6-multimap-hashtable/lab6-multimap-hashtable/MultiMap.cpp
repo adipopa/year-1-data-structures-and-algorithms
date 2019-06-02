@@ -7,9 +7,9 @@
 MultiMap::MultiMap() {
 	this->ht.capacity = INIT_CAPACITY;
 	this->ht.size = 0;
-	this->ht.T = new HashTableNode[this->ht.capacity];
+	this->ht.T = new Node*[this->ht.capacity];
 	for (int i = 0; i < this->ht.capacity; i++) {
-		this->ht.T[i].head = NULL;
+		this->ht.T[i] = NULL;
 	}
 }
 
@@ -24,8 +24,8 @@ void MultiMap::add(TKey c, TValue v) {
 
 	Node* newNode = new Node();
 	newNode->info = std::make_pair(c, v);
-	newNode->next = this->ht.T[position].head;
-	this->ht.T[position].head = newNode;
+	newNode->next = this->ht.T[position];
+	this->ht.T[position] = newNode;
 
 	this->ht.size++;
 }
@@ -35,7 +35,7 @@ void MultiMap::add(TKey c, TValue v) {
 // The overall complexity of the remove(TKey c, TValue v) method is Theta(1).
 bool MultiMap::remove(TKey c, TValue v) {
 	int position = this->hashDivisionFn(c);
-	Node* currentNode = this->ht.T[position].head;
+	Node* currentNode = this->ht.T[position];
 	Node* prevNode = NULL;
 	while (currentNode != NULL && !(currentNode->info.first == c && currentNode->info.second == v)) {
 		prevNode = currentNode;
@@ -43,7 +43,7 @@ bool MultiMap::remove(TKey c, TValue v) {
 	}
 	if (currentNode != NULL) {
 		if (prevNode == NULL) {
-			this->ht.T[position].head = this->ht.T[position].head->next;
+			this->ht.T[position] = this->ht.T[position]->next;
 		}
 		else {
 			prevNode->next = currentNode->next;
@@ -60,10 +60,10 @@ bool MultiMap::remove(TKey c, TValue v) {
 // The BC = WC = AC = Theta(1), since WC and AC depend on the ratio between n and m, which in the end is constant.
 // The overall complexity of the search(TKey c) method is Theta(1).
 vector<TValue> MultiMap::search(TKey c) const {
-	std::vector<TValue> values;
+	vector<TValue> values;
 
 	int position = this->hashDivisionFn(c);
-	Node* currentNode = this->ht.T[position].head;
+	Node* currentNode = this->ht.T[position];
 	while (currentNode != NULL) {
 		if (currentNode->info.first == c) {
 			values.push_back(currentNode->info.second);
@@ -92,10 +92,26 @@ MultiMapIterator MultiMap::iterator() const {
 	return MultiMapIterator(*this);
 }
 
+// Method that returns a vector with all the keys from the MultiMap.
+// The BC = AC = WC = Theta(m). The overall complexity of the keySet() method is Theta(m).
+vector<TKey> MultiMap::keySet() const {
+	vector<TKey> keys;
+	for (int i = 0; i < this->ht.capacity; i++) {
+		Node* currentNode = this->ht.T[i];
+		while (currentNode != NULL) {
+			if (find(keys.begin(), keys.end(), currentNode->info.first) == keys.end()) {
+				keys.push_back(currentNode->info.first);
+			}
+			currentNode = currentNode->next;
+		}
+	}
+	return keys;
+}
+
 // Method for assuring the correctness of a key.
 // The BC = WC = AC = Theta(1). The overall complexity of the hashCode(TKey key) method is Theta(1).
 int MultiMap::hashCode(TKey key) const {
-	return abs(int(key));
+	return key + 30000;
 }
 
 // Method for generating a hash position by division between a hash code and the capacity of the hashtable.
@@ -110,13 +126,13 @@ void MultiMap::resize() {
 	int oldCapacity = this->ht.capacity;
 	this->ht.capacity *= 2;
 	cout << "Resized hashtable capacity to " << this->ht.capacity << ".\n";
-	HashTableNode* newT = new HashTableNode[this->ht.capacity];
+	Node** newT = new Node*[this->ht.capacity];
 	for (int i = 0; i < this->ht.capacity; i++) {
-		newT[i].head = NULL;
+		newT[i] = NULL;
 	}
 	Node* prevNode = NULL;
 	for (int i = 0; i < oldCapacity; i++) {
-		Node* currentNode = this->ht.T[i].head;
+		Node* currentNode = this->ht.T[i];
 		while (currentNode != NULL) {
 			prevNode = currentNode;
 
@@ -124,8 +140,8 @@ void MultiMap::resize() {
 
 			Node* newNode = new Node();
 			newNode->info = currentNode->info;
-			newNode->next = newT[position].head;
-			newT[position].head = newNode;
+			newNode->next = newT[position];
+			newT[position] = newNode;
 
 			currentNode = currentNode->next;
 			delete prevNode;
@@ -135,11 +151,13 @@ void MultiMap::resize() {
 	this->ht.T = newT;
 }
 
+
+
 // MultiMap destructor.
-// The BC = WC = AC = Theta(n). The overall complexity of the ~MultiMap() method is Theta(n).
+// The BC = WC = AC = Theta(m). The overall complexity of the ~MultiMap() method is Theta(m).
 MultiMap::~MultiMap() {
 	for (int i = 0; i < this->ht.capacity; i++) {
-		Node* currentNode = this->ht.T[i].head;
+		Node* currentNode = this->ht.T[i];
 		Node* prevNode = NULL;
 		while (currentNode != NULL) {
 			prevNode = currentNode;
